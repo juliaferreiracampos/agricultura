@@ -1,0 +1,96 @@
+/* Estilos básicos */
+
+body {
+    font-family: Comic , 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4caf54;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.tecnologia {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tecnologia img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cultura {
+    margin-bottom: 40px;
+}
+
+.cultura img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
